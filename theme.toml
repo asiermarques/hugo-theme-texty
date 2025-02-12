@@ -1,0 +1,18 @@
+name = 'hugo-theme-texty'
+license = 'MIT'
+licenselink = 'https://github.com/asiermarques/hugo-theme-texty/LICENSE'
+description = 'A simple theme for writers'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/asiermarques/hugo-theme-texty'
+
+# If you have a running demo of the theme
+demosite = 'https://explicitud.com'
+
+# Taxonomy terms
+tags = ['blog', 'writer']
+features = ['minimal']
+
+[author]
+  name = 'Asier Marqués'
+  homepage = 'https://asiermarques.com'

@@ -1,0 +1,74 @@
+@import "../../vendor/bootstrap/scss/bootstrap";
+
+$font-family-sans-serif: "Merriweather Sans", sans-serif;
+$font-family-serif: "Lora", serif;
+$headings-font-family: $font-family-serif;
+$base-space: 2rem;
+
+body {
+  font-family: $font-family-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  padding: $base-space/2 0 $base-space 0;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-sans-serif;
+    a {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+h2 {
+    margin-top: $base-space/2;
+}
+
+header {
+    padding-bottom: $base-space/2;
+    margin-bottom: $base-space;
+    a, a.nav-link, a.nav-link:hover{
+        color: $gray-500;
+        font-family: $font-family-sans-serif;
+    }
+    h1{
+        font-weight: 800;
+        font-size: $font-size-base * 2;
+        margin: 0 0 $base-space/4 0;
+        a{
+            color: $gray-500;
+        }
+    }
+    .nav{
+        justify-content: flex-start;
+    }
+}
+
+main {
+    min-height: 800px;
+}
+
+article {
+    margin-bottom: $base-space;
+    margin-bottom: $base-space*2;
+    time {
+        font-size: 0.8rem;
+        color: $gray-800;
+        display: block;
+        margin-bottom: $base-space*1.5;
+    }
+}
+
+
+
+@include media-breakpoint-up(lg) {
+
+    header {
+        .nav{
+            justify-content: flex-end;
+        }
+    }
+}
+
+

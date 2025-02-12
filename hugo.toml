@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'My New Hugo Site'
+
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about/'
+weight = 20
+
+[params]
+  [params.social]
+    instagram = "your-instagram-url"
+    medium = "your-medium-url"
+    twitter = "your-twitter-url"
+
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
