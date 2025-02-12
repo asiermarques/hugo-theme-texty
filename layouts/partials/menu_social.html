@@ -1,6 +1,6 @@
 {{ with .Site.Params.social.instagram }}
 <li class="social">
-    <a class="nav-link" href="">
+    <a class="nav-link" href="{{ . }}">
       <!-- instagram icon by Free Icons (https://free-icons.github.io/free-icons/) -->
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
         <path
@@ -12,7 +12,7 @@
 {{ end }}
 {{ with .Site.Params.social.medium }}
 <li class="social">
-  <a class="nav-link" href="">
+  <a class="nav-link" href="{{ . }}">
     <!-- medium icon by Free Icons (https://free-icons.github.io/free-icons/) -->
     <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
       <path
@@ -24,7 +24,7 @@
 {{ end }}
 {{ with .Site.Params.social.twitter }}
 <li class="social">
-  <a class="nav-link" href="">
+  <a class="nav-link" href="{{ . }}">
     <!-- x-twitter icon by Free Icons (https://free-icons.github.io/free-icons/) -->
     <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
       <path
