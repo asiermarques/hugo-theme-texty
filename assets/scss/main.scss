@@ -1,9 +1,10 @@
-@import "../../vendor/bootstrap/scss/bootstrap";
-
+$black: #000;
 $font-family-sans-serif: "Merriweather Sans", sans-serif;
 $font-family-serif: "Lora", serif;
 $headings-font-family: $font-family-serif;
 $base-space: 2rem;
+
+@import "../../vendor/bootstrap/bootstrap";
 
 body {
   font-family: $font-family-serif;
