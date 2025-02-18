@@ -70,6 +70,10 @@ article {
         display: block;
         margin-bottom: $base-space*1.5;
     }
+    p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 
 
