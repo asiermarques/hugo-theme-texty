@@ -2,6 +2,7 @@ $black: #000;
 $font-family-sans-serif: "Merriweather Sans", sans-serif;
 $font-family-serif: "Lora", serif;
 $headings-font-family: $font-family-serif;
+$font-size-base: 1.2rem;
 $base-space: 2rem;
 
 @import "../../vendor/bootstrap/bootstrap";
@@ -71,9 +72,15 @@ article {
         margin-bottom: $base-space*1.5;
     }
     p{
-        text-align: justify;
-        text-justify: inter-word;
+        line-height: $font-size-base*1.6;
+        text-rendering: optimizeLegibility;
+        margin-bottom: $base-space*1.4;
+        color: $gray-800;
+        &:last-child{
+            margin-bottom: $base-space*3;
+        }
     }
+    
 }
 
 
