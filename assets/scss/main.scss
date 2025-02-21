@@ -86,6 +86,7 @@ article {
     &.list{
         p{
             font-size: $font-size-base/1.15;
+            margin-bottom: $base-space*1.15;
         }
     }
 }
