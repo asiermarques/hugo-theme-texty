@@ -9,6 +9,7 @@ pageRef = '/about/'
 weight = 20
 
 [params]
+  description = 'My New Hugo Site'
   [params.social]
     instagram = "your-instagram-url"
     medium = "your-medium-url"
