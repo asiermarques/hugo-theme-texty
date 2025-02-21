@@ -83,8 +83,13 @@ article {
             margin-bottom: $base-space*3;
         }
     }
-    
+    &.list{
+        p{
+            font-size: $font-size-base/1.15;
+        }
+    }
 }
+
 
 
 

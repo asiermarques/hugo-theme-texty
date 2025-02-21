@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ range where site.RegularPages "Type" "!=" "info" }}
-    <article>
+    <article class="list">
       <h2><a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a></h2>
       {{ .Content }}
     </article>
