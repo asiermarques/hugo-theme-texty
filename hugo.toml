@@ -14,7 +14,8 @@ weight = 20
     instagram = "your-instagram-url"
     medium = "your-medium-url"
     twitter = "your-twitter-url"
-
+  [params.footer]
+    copyright = "©%d My New Hugo Site, powered by <a href=\"https://github.com/asiermarques/hugo-theme-texty\">Texty hugo theme</a>"
 
 [module]
   [module.hugoVersion]

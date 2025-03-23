@@ -28,6 +28,7 @@ h2 {
 }
 
 header {
+    font-size: $font-size-base * 0.7;
     padding-bottom: $base-space/2;
     margin-bottom: $base-space;
     a, a.nav-link{
@@ -44,7 +45,7 @@ header {
     }
     h1{
         font-weight: 500;
-        font-size: $font-size-base * 1.8;
+        font-size: $font-size-base * 1.2;
         margin: 0 0 $base-space/4 0;
         a{
             color: $gray-500;
@@ -86,7 +87,7 @@ article {
     &.list{
         p{
             font-size: $font-size-base/1.15;
-            margin-bottom: $base-space*1.15;
+            margin-bottom: $base-space;
         }
     }
 }
