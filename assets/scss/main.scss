@@ -27,6 +27,14 @@ h2 {
     margin-top: $base-space/2;
 }
 
+footer {
+    font-size: $font-size-base * 0.5;
+    color: #000;
+    a{
+        color: #000;
+    }
+}
+
 header {
     font-size: $font-size-base * 0.7;
     padding-bottom: $base-space/2;
