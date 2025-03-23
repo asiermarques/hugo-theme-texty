@@ -28,10 +28,13 @@ h2 {
 }
 
 footer {
-    font-size: $font-size-base * 0.5;
-    color: #000;
-    a{
+    p{
+        text-align: center;
+        font-size: 1rem;
         color: #000;
+        a{
+            color: #000;
+        }
     }
 }
 
