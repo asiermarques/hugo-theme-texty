@@ -70,13 +70,9 @@ header {
     }
 }
 
-main {
-    min-height: 800px;
-}
 
 article {
     margin-bottom: $base-space;
-    margin-bottom: $base-space*2;
     h1, h2{
         font-weight: 800;
     }
@@ -97,8 +93,11 @@ article {
     }
     &.list{
         p{
-            font-size: $font-size-base/1.15;
-            margin-bottom: $base-space;
+            font-size: $font-size-base/1.1;
+        }
+        time {
+            font-size: 0.8rem;
+            margin-bottom: $base-space*1.1;
         }
     }
 }
