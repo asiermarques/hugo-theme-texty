@@ -2,7 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-US'
 title = 'My New Hugo Site'
 
-
 [[menus.main]]
 name = 'About'
 pageRef = '/about/'
@@ -10,6 +9,7 @@ weight = 20
 
 [params]
   description = 'My New Hugo Site'
+  full_article_in_list = true
   [params.social]
     instagram = "your-instagram-url"
     medium = "your-medium-url"

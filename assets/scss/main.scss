@@ -101,6 +101,18 @@ article {
         }
     }
 }
+.pagination {
+    margin-bottom: $base-space;
+    a{
+        color: $black;
+    }
+    .next{
+        text-align: right;
+    }
+    .disabled {
+        display: none;
+    }
+}
 
 
 

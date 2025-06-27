@@ -1,5 +1,7 @@
 {{ define "main" }}
-  {{ range where site.RegularPages "Type" "!=" "info" }}
+  {{ $posts := where site.RegularPages "Type" "!=" "info" }}
+  {{ $paginator := .Paginate $posts }}
+  {{ range $paginator.Pages }}
     <article class="list">
       <h2><a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a></h2>
       {{if not (eq .Type "info")}}
@@ -7,7 +9,14 @@
       {{ $dateHuman := .Date | time.Format ":date_long" }}
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
       {{end}}
+      {{if .Site.Params.full_article_in_list}}
       {{ .Content }}
+      {{else}}
+      {{ .Params.description }}
+      {{end}}
     </article>
   {{ end }}
+  {{ partial "pagination.html" (dict "paginator" $paginator) }}
 {{ end }}
+
+
