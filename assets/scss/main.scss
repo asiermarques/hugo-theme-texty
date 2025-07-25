@@ -1,5 +1,6 @@
+//https://www.color-hex.com/color/ffead3
 $black: #000;
-$white: #fffbf7;
+$white: #fffcfa;
 $gray-100: #e5d2bd;
 $gray-200: #ccbba8;
 $gray-300: #b2a393;
@@ -65,11 +66,11 @@ header {
         }
     }
     h1{
-        font-weight: 500;
-        font-size: $font-size-base * 1.4;
-        margin: .2rem 0 $base-space/4 0;
+        font-weight: 400;
+        font-size: $font-size-base * 1.6;
+        margin: .18rem 0 $base-space/4 0;
         a{
-            color: $gray-400;
+            color: $gray-300;
         }
         a:hover{
             color: $black;
