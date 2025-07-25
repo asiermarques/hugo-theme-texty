@@ -1,8 +1,9 @@
 $black: #000;
 $white: #fffbf7;
-$gray-500: #7f7569;
-$gray-100: #b2a393;
-$gray-300: #998c7e;
+$gray-100: #e5d2bd;
+$gray-200: #ccbba8;
+$gray-300: #b2a393;
+$gray-400: #998c7e;
 $gray-500: #7f7569;
 $gray-600: #665d54;
 $gray-700: #4c463f;
@@ -52,7 +53,7 @@ header {
     padding-bottom: $base-space/2;
     margin-bottom: $base-space;
     a, a.nav-link{
-        color: $gray-500;
+        color: $gray-400;
         font-family: $font-family-sans-serif;
     }
     a.nav-link:hover{
@@ -65,10 +66,10 @@ header {
     }
     h1{
         font-weight: 500;
-        font-size: $font-size-base * 1.2;
+        font-size: $font-size-base * 1.4;
         margin: .2rem 0 $base-space/4 0;
         a{
-            color: $gray-500;
+            color: $gray-400;
         }
         a:hover{
             color: $black;
